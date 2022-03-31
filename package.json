@@ -1,0 +1,20 @@
+{
+  "name": "kadence-child",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "swiper": "^8.0.7",
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^22.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC"
+}

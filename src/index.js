@@ -1,0 +1,1 @@
+import '../inc/js/swiper.js';

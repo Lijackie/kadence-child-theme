@@ -1,0 +1,143 @@
+/*!
+Theme Name: Kadence Child
+Theme URI: https://www.kadencewp.com/kadence-theme/
+Template: kadence
+Author: Kadence WP
+Author URI: https://www.kadencewp.com/
+Description: A child theme for the Kadence Theme.
+Version: 1.0.0
+License: GNU General Public License v3.0 (or later)
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kadence-child
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+.woocommerce div.product div.images .flex-control-thumbs {
+    display: flex;
+    margin-top: 0;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li {
+    flex: 1;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button, #add_payment_method .wc-proceed-to-checkout a.checkout-button {
+    margin-left: auto;
+    width: 25%;
+    background: -webkit-linear-gradient(left, #C7801D 0px, #F7C545 100%);
+    border: 1px solid transparent;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 100px;
+}
+
+.single-content h1:first-child, .single-content h2:first-child, .single-content h3:first-child, .single-content h4:first-child, .single-content h5:first-child, .single-content h6:first-child {
+    display: none;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table, .woocommerce-checkout .cart-collaterals .cart_totals table, #add_payment_method .cart-collaterals .cart_totals table {
+    text-align: end;
+}
+
+.c-step_wrap { 
+	border-top: 3px solid #e0e0e0;
+	box-sizing: border-box;
+	color: #2a2a2a;
+	display: flex;
+	font: inherit;
+	justify-content: space-between;
+	max-width: 800px;
+	padding: 0px;
+	text-align: center;
+	vertical-align: baseline;
+    margin-bottom: 50px;
+}
+
+.act,
+.act2 { 
+	background: #ffffff;
+	box-sizing: border-box;
+	color: #2a2a2a;
+	cursor: pointer;
+	display: block;
+	font: inherit;
+	margin: 0px;
+	margin-top: -20px;
+	outline: none;
+	padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+}
+
+.act:visited,
+.act2:visited { 
+	text-decoration: none;
+}
+
+.act:hover,
+.act2:hover { 
+	text-decoration: none;
+}
+
+.act:active,
+.act2:active { 
+	text-decoration: none;
+}
+
+.act span { 
+    background: -webkit-linear-gradient(left, #c7801d 0px, #f7c545 100%);
+	border-radius: 50%;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	font: inherit;
+	height: 40px;
+	line-height: 44px;
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+	width: 40px;
+}
+
+.act2 span {
+    background: #E0E0E0;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    line-height: 44px;
+    margin: 0 auto;
+}
+
+.act p,
+.ac2 p { 
+	box-sizing: border-box;
+	color: #2a2a2a;
+	cursor: pointer;
+	font: inherit;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
+	text-align: center;
+	vertical-align: baseline;
+}
+
+.recommand-title::after,
+.all-product-link::after {
+	content: "";
+    display: block;
+    width: 60px;
+    height: 1.5px;
+    margin: 10px auto 0;
+    background: -webkit-linear-gradient(left, #C7801D 0px, #F7C545 100%);
+}
+
+.swiper,
+.swiper-new-product {
+	width: 100%;
+}
