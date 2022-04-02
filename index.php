@@ -15,20 +15,19 @@ defined( 'ABSPATH' ) || exit;
                 <a href="echo esc_url(get_permalink( wc_get_page_id( 'product/g-cube-松露巧克力粉色小貨車鐵盒10顆裝' ) )">
                     <!-- <img class="" src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2022/03/godiva_product_20220222181051_901.png"> -->
                     <img class="w-full h-full"
-                        src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2022/04/kitchen_adventurer_caramel.jpg">
-            
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/src/kitchen_adventurer_caramel.jpg" />
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="echo esc_url(get_permalink( wc_get_page_id( 'product/片裝巧克力禮盒24片裝' ) )">
                     <img class="w-full h-full"
-                        src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2022/04/kitchen_adventurer_donut.jpg">
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/src/kitchen_adventurer_cheesecake_brownie.jpg" />
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="echo esc_url(get_permalink( wc_get_page_id( 'product/春季巧克力花形鐵盒15顆裝' ) )">
                     <img class="w-full h-full"
-                        src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2022/04/kitchen_adventurer_cheesecake_brownie.jpg">
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/src/kitchen_adventurer_donut.jpg" />
                 </a>
             </div>
         </div>
